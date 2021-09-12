@@ -21,7 +21,7 @@ function App() {
     <div className="App">
       <div className="w-full">
         <header className="flex bg-gray-900 m-5 p-5 shadow-lg rounded-lg">
-          <h1 className="text-2xl text-teal-400">PB Tech Dashboard</h1>
+          <h1 className="text-2xl text-teal-400">Code Differently Youth Program Dashboard</h1>
         </header>
 
         <ResponsiveGridLayout
