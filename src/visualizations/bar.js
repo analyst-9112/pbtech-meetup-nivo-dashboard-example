@@ -26,7 +26,7 @@ export default () => (
 			{
 				"id": "dots",
 				"type": "patternDots",
-				"background": "inherit",
+				"background": "#ffffff",
 				"color": "#38bcb2",
 				"size": 4,
 				"padding": 1,
@@ -35,7 +35,7 @@ export default () => (
 			{
 				"id": "lines",
 				"type": "patternLines",
-				"background": "inherit",
+				"background": "#ffffff",
 				"color": "#eed312",
 				"rotation": -45,
 				"lineWidth": 6,
@@ -47,11 +47,35 @@ export default () => (
 				"match": {
 					"id": "fries"
 				},
-				"id": "dots"
+				"id": "lines"
 			},
 			{
 				"match": {
 					"id": "sandwich"
+				},
+				"id": "dots"
+			},
+			{
+				"match": {
+					"id": "hot dog"
+				},
+				"id": "lines"
+			},
+			{
+				"match": {
+					"id": "donut"
+				},
+				"id": "lines"
+			},
+			{
+				"match": {
+					"id": "burger"
+				},
+				"id": "dots"
+			},
+			{
+				"match": {
+					"id": "kebab"
 				},
 				"id": "lines"
 			}

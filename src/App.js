@@ -9,6 +9,10 @@ import Bar from './visualizations/bar';
 import Radar from './visualizations/radar';
 import Line from './visualizations/line';
 
+
+import Pie from './visualizations/pie'
+
+
 // Handles the responsive nature of the grid
 const ResponsiveGridLayout = WidthProvider(Responsive);
 // Determines the screen breakpoints for the columns
@@ -20,8 +24,9 @@ function App() {
   return (
     <div className="App">
       <div className="w-full">
+      <img src="CD-logo.png" alt="" width="400" height="100"/>
         <header className="flex bg-gray-900 m-5 p-5 shadow-lg rounded-lg">
-          <h1 className="text-2xl text-teal-400">Code Differently Youth Program Dashboard</h1>
+          <h1 className="text-4xl text-teal-400">Youth Program Dashboard</h1>
         </header>
 
         <ResponsiveGridLayout
@@ -32,7 +37,7 @@ function App() {
           <div
             className="grid-cell"
             key="1"
-            data-grid={{ x: 0, y: 0, w: 2, h: 3, static: true }}
+            data-grid={{ x: 0, y: 0, w: 2, h: 3, static: false }}
           >
             <h3 className="grid-header">Daily Community Engagement</h3>
             <Heatmap />
@@ -62,6 +67,29 @@ function App() {
             <h3 className="grid-header">Members' Favorite Transportion</h3>
             <Line />
           </div>
+
+          <div
+            className="grid-cell"
+            key="5"
+            data-grid={{ x: 0, y: 0, w: 2, h: 3}}
+          >
+            <h3 className="grid-header">What Coding Languages Do You Know?</h3>
+            <Pie />
+            
+          </div>
+
+          <div
+            className="grid-cell"
+            key="6"
+            data-grid={{ x: 0, y: 0, w: 2, h: 3}}
+          >
+            <h3 className="grid-header">School Name - What School Do You Attend?</h3>
+
+            <img src="/chart.png" alt=""/>
+
+            {/* <Geomap /> */}
+          </div>
+
         </ResponsiveGridLayout>
       </div>
     </div>
