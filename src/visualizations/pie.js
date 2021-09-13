@@ -52,7 +52,7 @@ export default () => (
             },
             {
                 match: {
-                    id: 'c'
+                    id: 'CSS'
                 },
                 id: 'dots'
             },
@@ -126,7 +126,7 @@ const data = [
       "id": "CSS",
       "label": "CSS",
       "value": 278,
-      "color": "hsl(163, 70%, 50%)"
+      "color": "hsl(198, 64%, 53%)"
     },
     {
       "id": "Python",
@@ -153,22 +153,17 @@ const data = [
       "color": "hsl(259, 70%, 50%)"
     },
     {
-        "id": "javascript",
+        "id": "Javascript",
         "label": "javascript",
         "value": 483,
         "color": "hsl(259, 70%, 50%)"
       },
       {
-        "id": "java",
+        "id": "Java",
         "label": "java",
-        "value": 383,
-        "color": "hsl(259, 70%, 50%)"
+        "value": 583,
+        "color": "hsl(198, 64%, 53%)"
       },
-      {
-        "id": "Jawn",
-        "label": "java",
-        "value": 383,
-        "color": "hsl(259, 70%, 50%)"
-      },
+   
       
   ]

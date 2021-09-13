@@ -5,9 +5,9 @@ export default () => (
 	<ResponsiveRadar
 		data={data}
 		keys={[
-			"chardonay",
-			"carmenere",
-			"syrah"
+			"MacBook",
+			"Chromebook",
+			"PC"
 		]}
 		indexBy="taste"
 		maxValue="auto"
@@ -64,33 +64,33 @@ export default () => (
 
 const data = [
 	{
-		"taste": "fruity",
-		"chardonay": 64,
-		"carmenere": 72,
-		"syrah": 38
+		"taste": "Weight",
+		"MacBook": 64,
+		"Chromebook": 72,
+		"PC": 38
 	},
 	{
-		"taste": "bitter",
-		"chardonay": 110,
-		"carmenere": 59,
-		"syrah": 78
+		"taste": "Processor",
+		"MacBook": 110,
+		"Chromebook": 59,
+		"PC": 78
 	},
 	{
-		"taste": "heavy",
-		"chardonay": 69,
-		"carmenere": 87,
-		"syrah": 105
+		"taste": "Screen",
+		"MacBook": 69,
+		"Chromebook": 87,
+		"PC": 105
 	},
 	{
-		"taste": "strong",
-		"chardonay": 97,
-		"carmenere": 84,
-		"syrah": 105
+		"taste": "Keyboard",
+		"MacBook": 97,
+		"Chromebook": 84,
+		"PC": 105
 	},
 	{
-		"taste": "sunny",
-		"chardonay": 94,
-		"carmenere": 102,
-		"syrah": 117
+		"taste": "Speed",
+		"MacBook": 94,
+		"Chromebook": 102,
+		"PC": 117
 	}
 ];

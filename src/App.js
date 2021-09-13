@@ -8,7 +8,7 @@ import Heatmap from './visualizations/heatmap';
 import Bar from './visualizations/bar';
 import Radar from './visualizations/radar';
 import Line from './visualizations/line';
-
+import Bar2 from './visualizations/bar2'
 
 import Pie from './visualizations/pie'
 
@@ -37,10 +37,13 @@ function App() {
           <div
             className="grid-cell"
             key="1"
-            data-grid={{ x: 0, y: 0, w: 2, h: 3, static: false }}
+            data-grid={{ x: 0, y: 0, w: 2, h: 3, static: true }}
           >
-            <h3 className="grid-header">Daily Community Engagement</h3>
-            <Heatmap />
+            <h3 className="grid-header">What High School Do You Attend?</h3>
+
+            <img src="chart.svg" alt=""/>
+
+            {/* <Heatmap /> */}
           </div>
 
           <div
@@ -48,15 +51,15 @@ function App() {
             key="2"
             data-grid={{ x: 2, y: 0, w: 2, h: 3 }}
           >
-            <h3 className="grid-header">Members' Favorite Food</h3>
-            <Bar />
+            <h3 className="grid-header">Students Favorite Food</h3>
+            <Bar2 />
           </div>
           <div
             className="grid-cell"
             key="3"
             data-grid={{ x: 0, y: 3, w: 1, h: 2 }}
           >
-            <h3 className="grid-header">Members' Favorite Drinks</h3>
+            <h3 className="grid-header">Battle Of The Laptops</h3>
             <Radar />
           </div>
           <div
@@ -64,7 +67,7 @@ function App() {
             key="4"
             data-grid={{ x: 2, y: 3, w: 3, h: 2 }}
           >
-            <h3 className="grid-header">Members' Favorite Transportion</h3>
+            <h3 className="grid-header">Students Favorite Transportion</h3>
             <Line />
           </div>
 
@@ -83,11 +86,9 @@ function App() {
             key="6"
             data-grid={{ x: 0, y: 0, w: 2, h: 3}}
           >
-            <h3 className="grid-header">School Name - What School Do You Attend?</h3>
+            <h3 className="grid-header">High School Skill Score</h3>
 
-            <img src="/chart.png" alt=""/>
-
-            {/* <Geomap /> */}
+            <Heatmap />
           </div>
 
         </ResponsiveGridLayout>
